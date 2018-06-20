@@ -1,0 +1,11 @@
+c:\users\admin\source\repos\pptxAutoGenetate\pptxAutoGenetate\bin\Debug\pptxAutoGenetate.exe.config
+c:\users\admin\source\repos\pptxAutoGenetate\pptxAutoGenetate\bin\Debug\pptxAutoGenetate.exe
+c:\users\admin\source\repos\pptxAutoGenetate\pptxAutoGenetate\bin\Debug\pptxAutoGenetate.pdb
+c:\users\admin\source\repos\pptxAutoGenetate\pptxAutoGenetate\bin\Debug\Aspose.Slides.dll
+c:\users\admin\source\repos\pptxAutoGenetate\pptxAutoGenetate\bin\Debug\Newtonsoft.Json.dll
+c:\users\admin\source\repos\pptxAutoGenetate\pptxAutoGenetate\bin\Debug\Newtonsoft.Json.xml
+c:\users\admin\source\repos\pptxAutoGenetate\pptxAutoGenetate\obj\Debug\pptxAutoGenetate.csprojResolveAssemblyReference.cache
+c:\users\admin\source\repos\pptxAutoGenetate\pptxAutoGenetate\obj\Debug\pptxAutoGenetate.csproj.CoreCompileInputs.cache
+c:\users\admin\source\repos\pptxAutoGenetate\pptxAutoGenetate\obj\Debug\pptxAutoGenetate.csproj.CopyComplete
+c:\users\admin\source\repos\pptxAutoGenetate\pptxAutoGenetate\obj\Debug\pptxAutoGenetate.exe
+c:\users\admin\source\repos\pptxAutoGenetate\pptxAutoGenetate\obj\Debug\pptxAutoGenetate.pdb
