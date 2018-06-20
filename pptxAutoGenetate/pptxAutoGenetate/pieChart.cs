@@ -2,9 +2,11 @@
 using Aspose.Slides.Charts;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace pptxAutoGenetate
 {
@@ -41,10 +43,15 @@ namespace pptxAutoGenetate
             // Adding new series
             IChartSeries series = chart.ChartData.Series.Add(fact.GetCell(0, 0, 1, title), chart.Type);
             chart.ChartData.SeriesGroups[0].IsColorVaried = true;
-            foreach (KeyValuePair<string, decimal> pair in data)
+           
+            var sortedData = from objDic in data orderby objDic.Value descending select objDic;
+            var sum = sortedData.Select(item => item.Value).Sum();
+            foreach (KeyValuePair<string, decimal> pair in sortedData)
             {
                 // Adding new categories
-                chart.ChartData.Categories.Add(fact.GetCell(defaultWorksheetIndex, index, 0, pair.Key));
+                double percent = (double) (pair.Value / sum);
+                string percentStr = percent.ToString("0.%");
+                chart.ChartData.Categories.Add(fact.GetCell(defaultWorksheetIndex, index, 0, pair.Key+":"+ percentStr));
                 // Now populating series data
                 series.DataPoints.AddDataPointForPieSeries(fact.GetCell(defaultWorksheetIndex, index, 1, pair.Value));
                 index++;
@@ -53,22 +60,26 @@ namespace pptxAutoGenetate
             // Create custom labels for each of categories for new series
             for (int i = 0; i < series.DataPoints.Count; i++)
             {
-
                 IDataLabel lbl = series.DataPoints[i].Label;
                 lbl.TextFrameForOverriding.TextFrameFormat.WrapText = NullableBool.False;
-                lbl.DataLabelFormat.Position = LegendDataLabelPosition.BestFit;
-                lbl.DataLabelFormat.ShowCategoryName = true;
+                lbl.DataLabelFormat.Position = LegendDataLabelPosition.InsideEnd;
+                lbl.DataLabelFormat.ShowCategoryName = false;
                 lbl.DataLabelFormat.ShowPercentage = true;
-                lbl.DataLabelFormat.ShowLeaderLines = true;
-                lbl.DataLabelFormat.Separator = ":";
+                lbl.DataLabelFormat.ShowLeaderLines = false;
+                lbl.DataLabelFormat.Separator = ",";
             }
 
             // no showing Legend key in chart
-            series.Chart.HasLegend = false;
+            series.Chart.HasLegend = true;
+            // Set Legend Properties
+            chart.Legend.Width = 200 / chart.Width;
+            chart.Legend.Height = 100 / chart.Height;
 
             // Showing Leader Lines for Chart
-            series.Labels.DefaultDataLabelFormat.ShowLeaderLines = true;
-
+            series.Labels.DefaultDataLabelFormat.ShowLeaderLines = false;
+            series.Labels.DefaultDataLabelFormat.TextFormat.PortionFormat.FillFormat.SolidFillColor.Color = Color.Black;
+            series.Labels.DefaultDataLabelFormat.TextFormat.PortionFormat.FillFormat.FillType = FillType.Solid;
+            chart.Legend.Position = LegendPositionType.Bottom;
         }
 
         public static void generate3DPieChartForArea(Presentation pres, ISlide slide, Dictionary<string, Dictionary<string, decimal>> data)
@@ -82,7 +93,7 @@ namespace pptxAutoGenetate
 
             ChartProperty cp = new ChartProperty();
             cp.y = 100;
-            cp.height = 400;
+            cp.height = 350;
             cp.width = 350;
 
             for (int j = 1; j <= pieChartSlideCount; j++)
@@ -145,7 +156,7 @@ namespace pptxAutoGenetate
             ChartProperty cp = new ChartProperty();
             cp.x = 200;
             cp.y = 100;
-            cp.height = 450;
+            cp.height = 350;
             cp.width = 400;
             cp.title = string.Format("{0} progress", lineKey);
 

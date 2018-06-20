@@ -10,8 +10,9 @@ namespace pptxAutoGenetate
     {
         static void Main(string[] args)
         {
-          
-            pptxUtil.GeneratePPT(@"c:\workspace\data.pptx", JsonUtil.getProjectItemFromJsonFile(@"c:\workspace\data.json"));
+            var pptPath = AppDomain.CurrentDomain.BaseDirectory + "data.pptx";
+            var json = AppDomain.CurrentDomain.BaseDirectory + "data.json";
+            pptxUtil.GeneratePPT(pptPath, JsonUtil.getProjectItemFromJsonFile(json));
         }
     }
 }

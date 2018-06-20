@@ -9,3 +9,26 @@ c:\users\admin\source\repos\pptxAutoGenetate\pptxAutoGenetate\obj\Debug\pptxAuto
 c:\users\admin\source\repos\pptxAutoGenetate\pptxAutoGenetate\obj\Debug\pptxAutoGenetate.csproj.CopyComplete
 c:\users\admin\source\repos\pptxAutoGenetate\pptxAutoGenetate\obj\Debug\pptxAutoGenetate.exe
 c:\users\admin\source\repos\pptxAutoGenetate\pptxAutoGenetate\obj\Debug\pptxAutoGenetate.pdb
+C:\Users\gliu\Downloads\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\bin\Debug\pptxAutoGenetate.exe.config
+C:\Users\gliu\Downloads\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\bin\Debug\pptxAutoGenetate.exe
+C:\Users\gliu\Downloads\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\bin\Debug\pptxAutoGenetate.pdb
+C:\Users\gliu\Downloads\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gliu\Downloads\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gliu\Downloads\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\obj\Debug\pptxAutoGenetate.csproj.CoreCompileInputs.cache
+C:\Users\gliu\Downloads\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\obj\Debug\pptxAutoGenetate.csproj.CopyComplete
+C:\Users\gliu\Downloads\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\obj\Debug\pptxAutoGenetate.exe
+C:\Users\gliu\Downloads\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\obj\Debug\pptxAutoGenetate.pdb
+C:\Users\gliu\Downloads\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\bin\Debug\data.json
+C:\Users\gliu\Downloads\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\bin\Debug\PT-Vorlage_Folienbibliothek_intern.pptx
+C:\Users\admin\AppData\Roaming\Skype\My Skype Received Files\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\bin\Debug\data.json
+C:\Users\admin\AppData\Roaming\Skype\My Skype Received Files\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\bin\Debug\PT-Vorlage_Folienbibliothek_intern.pptx
+C:\Users\admin\AppData\Roaming\Skype\My Skype Received Files\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\bin\Debug\pptxAutoGenetate.exe.config
+C:\Users\admin\AppData\Roaming\Skype\My Skype Received Files\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\bin\Debug\pptxAutoGenetate.exe
+C:\Users\admin\AppData\Roaming\Skype\My Skype Received Files\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\bin\Debug\pptxAutoGenetate.pdb
+C:\Users\admin\AppData\Roaming\Skype\My Skype Received Files\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\AppData\Roaming\Skype\My Skype Received Files\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\bin\Debug\Newtonsoft.Json.xml
+C:\Users\admin\AppData\Roaming\Skype\My Skype Received Files\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\obj\Debug\pptxAutoGenetate.csprojResolveAssemblyReference.cache
+C:\Users\admin\AppData\Roaming\Skype\My Skype Received Files\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\obj\Debug\pptxAutoGenetate.csproj.CoreCompileInputs.cache
+C:\Users\admin\AppData\Roaming\Skype\My Skype Received Files\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\obj\Debug\pptxAutoGenetate.csproj.CopyComplete
+C:\Users\admin\AppData\Roaming\Skype\My Skype Received Files\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\obj\Debug\pptxAutoGenetate.exe
+C:\Users\admin\AppData\Roaming\Skype\My Skype Received Files\pptxAutoGenetate\pptxAutoGenetate\pptxAutoGenetate\obj\Debug\pptxAutoGenetate.pdb

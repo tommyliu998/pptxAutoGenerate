@@ -1,0 +1,296 @@
+{
+	"ProjectName": "walk man",
+	"Areas": [{
+			"ItemName": "Europe",
+			"ItemWeight": 21,
+			"lines": [{
+					"ItemName": "Finnland",
+					"ItemWeight": 25,
+					"stations": [{
+						"ItemName": "Kajaani",
+						"ItemWeight": 17
+					}, {
+						"ItemName": "Imatra",
+						"ItemWeight": 23
+					}, {
+						"ItemName": "Hanko",
+						"ItemWeight": 25
+					}, {
+						"ItemName": "Ikaalinen",
+						"ItemWeight": 35
+					}]
+				},
+				{
+					"ItemName": "French",
+					"ItemWeight": 35,
+					"stations": [{
+						"ItemName": "Paris",
+						"ItemWeight": 27
+					}, {
+						"ItemName": "Marseille",
+						"ItemWeight": 13
+					}, {
+						"ItemName": "Toulouse",
+						"ItemWeight": 36
+					}, {
+						"ItemName": "Nantes",
+						"ItemWeight": 24
+					}]
+				},
+				{
+					"ItemName": "England",
+					"ItemWeight": 13,
+					"stations": [{
+						"ItemName": "Birmingham",
+						"ItemWeight": 19
+					}, {
+						"ItemName": "Cambridge",
+						"ItemWeight": 21
+					}, {
+						"ItemName": "Coventry",
+						"ItemWeight": 29
+					}, {
+						"ItemName": "Hereford",
+						"ItemWeight": 31
+					}]
+				},
+				{
+					"ItemName": "German",
+					"ItemWeight": 37,
+					"stations": [{
+						"ItemName": "Berlin",
+						"ItemWeight": 16
+					}, {
+						"ItemName": "Hamburg",
+						"ItemWeight": 24
+					}, {
+						"ItemName": "Dortmund",
+						"ItemWeight": 48
+					}, {
+						"ItemName": "Bremen",
+						"ItemWeight": 12
+					}]
+				}
+			]
+		},
+		{
+			"ItemName": "Asia",
+			"ItemWeight": 29,
+			"lines": [{
+					"ItemName": "China",
+					"ItemWeight": 25,
+					"stations": [{
+						"ItemName": "Guangzhou",
+						"ItemWeight": 17
+					}, {
+						"ItemName": "Dalian",
+						"ItemWeight": 23
+					}, {
+						"ItemName": "Shenzhen",
+						"ItemWeight": 25
+					}, {
+						"ItemName": "Beijing",
+						"ItemWeight": 35
+					}]
+				},
+				{
+					"ItemName": "Japanese",
+					"ItemWeight": 25,
+					"stations": [{
+						"ItemName": "Tokyo",
+						"ItemWeight": 27
+					}, {
+						"ItemName": "Nagoya",
+						"ItemWeight": 13
+					}, {
+						"ItemName": "Kawasaki",
+						"ItemWeight": 36
+					}, {
+						"ItemName": "Sapporo",
+						"ItemWeight": 24
+					}]
+				},
+				{
+					"ItemName": "Tailand",
+					"ItemWeight": 25,
+					"stations": [{
+						"ItemName": "Bangkok",
+						"ItemWeight": 19
+					}, {
+						"ItemName": "Pattaya",
+						"ItemWeight": 21
+					}, {
+						"ItemName": "Chonburi",
+						"ItemWeight": 29
+					}, {
+						"ItemName": "Lampang",
+						"ItemWeight": 31
+					}]
+				},
+				{
+					"ItemName": "Malaysia",
+					"ItemWeight": 25,
+					"stations": [{
+						"ItemName": "Ipoh",
+						"ItemWeight": 16
+					}, {
+						"ItemName": "Kuala",
+						"ItemWeight": 24
+					}, {
+						"ItemName": "Johor",
+						"ItemWeight": 48
+					}, {
+						"ItemName": "Kuching",
+						"ItemWeight": 12
+					}]
+				}
+			]
+		},
+		{
+			"ItemName": "Afria",
+			"ItemWeight": 31,
+			"lines": [{
+					"ItemName": "Zambia",
+					"ItemWeight": 25,
+					"stations": [{
+						"ItemName": "Lusaka",
+						"ItemWeight": 17
+					}, {
+						"ItemName": "Ndola",
+						"ItemWeight": 23
+					}, {
+						"ItemName": "Kitwe",
+						"ItemWeight": 25
+					}, {
+						"ItemName": "Kabwe",
+						"ItemWeight": 35
+					}]
+				},
+				{
+					"ItemName": "Zimbabwe",
+					"ItemWeight": 25,
+					"stations": [{
+						"ItemName": "Harare",
+						"ItemWeight": 27
+					}, {
+						"ItemName": "Bulawayo",
+						"ItemWeight": 13
+					}, {
+						"ItemName": "Chitungwiza",
+						"ItemWeight": 36
+					}, {
+						"ItemName": "Mutare",
+						"ItemWeight": 24
+					}]
+				},
+				{
+					"ItemName": "Namibia",
+					"ItemWeight": 25,
+					"stations": [{
+						"ItemName": "Opuwo",
+						"ItemWeight": 19
+					}, {
+						"ItemName": "Eenhana",
+						"ItemWeight": 21
+					}, {
+						"ItemName": "Gobabis",
+						"ItemWeight": 29
+					}, {
+						"ItemName": "Outapi",
+						"ItemWeight": 31
+					}]
+				},
+				{
+					"ItemName": "Comoros",
+					"ItemWeight": 25,
+					"stations": [{
+						"ItemName": "Moroni",
+						"ItemWeight": 16
+					}, {
+						"ItemName": "Fomboni",
+						"ItemWeight": 24
+					}, {
+						"ItemName": "Dzaoudzi",
+						"ItemWeight": 48
+					}, {
+						"ItemName": "Mayotte",
+						"ItemWeight": 12
+					}]
+				}
+			]
+		},
+		{
+			"ItemName": "Oceania",
+			"ItemWeight": 19,
+			"lines": [{
+					"ItemName": "Australia",
+					"ItemWeight": 25,
+					"stations": [{
+						"ItemName": "Sydney",
+						"ItemWeight": 17
+					}, {
+						"ItemName": "Melbourne",
+						"ItemWeight": 23
+					}, {
+						"ItemName": "Brisbane",
+						"ItemWeight": 25
+					}, {
+						"ItemName": "Perth",
+						"ItemWeight": 35
+					}]
+				},
+				{
+					"ItemName": "New Zealand",
+					"ItemWeight": 25,
+					"stations": [{
+						"ItemName": "Auckland",
+						"ItemWeight": 27
+					}, {
+						"ItemName": "Wellington",
+						"ItemWeight": 13
+					}, {
+						"ItemName": "Christchurch",
+						"ItemWeight": 36
+					}, {
+						"ItemName": "Hamilton",
+						"ItemWeight": 24
+					}]
+				},
+				{
+					"ItemName": "Nauru",
+					"ItemWeight": 25,
+					"stations": [{
+						"ItemName": "Aiwo",
+						"ItemWeight": 19
+					}, {
+						"ItemName": "Ewa",
+						"ItemWeight": 21
+					}, {
+						"ItemName": "Yaren",
+						"ItemWeight": 29
+					}, {
+						"ItemName": "Ijuw",
+						"ItemWeight": 31
+					}]
+				},
+				{
+					"ItemName": "Tuvalu",
+					"ItemWeight": 25,
+					"stations": [{
+						"ItemName": "Nui",
+						"ItemWeight": 16
+					}, {
+						"ItemName": "Nukufetau",
+						"ItemWeight": 24
+					}, {
+						"ItemName": "Vaitupu",
+						"ItemWeight": 48
+					}, {
+						"ItemName": "Niutao",
+						"ItemWeight": 12
+					}]
+				}
+			]
+		}
+	]
+}
