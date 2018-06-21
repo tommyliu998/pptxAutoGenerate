@@ -42,10 +42,12 @@ namespace pptxAutoGenetate
 
             // Adding new series
             IChartSeries series = chart.ChartData.Series.Add(fact.GetCell(0, 0, 1, title), chart.Type);
-            chart.ChartData.SeriesGroups[0].IsColorVaried = true;
+            //chart.ChartData.SeriesGroups[0].IsColorVaried = true;
            
+
             var sortedData = from objDic in data orderby objDic.Value descending select objDic;
             var sum = sortedData.Select(item => item.Value).Sum();
+           
             foreach (KeyValuePair<string, decimal> pair in sortedData)
             {
                 // Adding new categories
@@ -57,9 +59,13 @@ namespace pptxAutoGenetate
                 index++;
             }
 
+           
             // Create custom labels for each of categories for new series
             for (int i = 0; i < series.DataPoints.Count; i++)
             {
+                Color dataPointColor = getDataPointColorByIndex(i);
+                series.DataPoints[i].Format.Fill.FillType = FillType.Solid;
+                series.DataPoints[i].Format.Fill.SolidFillColor.Color = dataPointColor;
                 IDataLabel lbl = series.DataPoints[i].Label;
                 lbl.TextFrameForOverriding.TextFrameFormat.WrapText = NullableBool.False;
                 lbl.DataLabelFormat.Position = LegendDataLabelPosition.InsideEnd;
@@ -72,8 +78,8 @@ namespace pptxAutoGenetate
             // no showing Legend key in chart
             series.Chart.HasLegend = true;
             // Set Legend Properties
-            chart.Legend.Width = 200 / chart.Width;
-            chart.Legend.Height = 100 / chart.Height;
+            chart.Legend.Width = 350 / chart.Width;
+            chart.Legend.Height = 60 / chart.Height;
 
             // Showing Leader Lines for Chart
             series.Labels.DefaultDataLabelFormat.ShowLeaderLines = false;
@@ -163,6 +169,24 @@ namespace pptxAutoGenetate
             ISlide currentSlide = slide;
             pptxUtil.ReplaceTagForSlide(currentSlide, Constant.pclTemplatePrefix, "");
             add3DPieChartToSlide(currentSlide, cp, data);
+        }
+
+        //add predifned color for each piechart to show
+        private static Color getDataPointColorByIndex(int index)
+        {
+            //Define color to list
+            List<Color> colorList = new List<Color>
+            { Color.Brown,Color.Red,Color.Yellow,Color.DeepPink,Color.AliceBlue,Color.Purple };
+
+            if (index >= colorList.Count)
+            {
+                int mod = index % colorList.Count;
+                return colorList[mod];
+            }
+
+            return colorList[index];
+
+
         }
     }
 }
